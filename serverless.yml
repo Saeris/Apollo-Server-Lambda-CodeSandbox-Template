@@ -1,4 +1,4 @@
-service: "mini-movie-db"
+service: "apollo-server-lambda"
 
 provider:
   name: aws

@@ -1,6 +1,8 @@
 const { join } = require(`path`)
-const slsw = require(`serverless-webpack`) // https://github.com/serverless-heaven/serverless-webpack
-const nodeExternals = require(`webpack-node-externals`) // https://github.com/liady/webpack-node-externals
+// https://github.com/serverless-heaven/serverless-webpack
+const slsw = require(`serverless-webpack`)
+// https://github.com/liady/webpack-node-externals
+const nodeExternals = require(`webpack-node-externals`)
 
 module.exports = {
   mode: slsw.lib.webpack.isLocal ? `development` : `production`,

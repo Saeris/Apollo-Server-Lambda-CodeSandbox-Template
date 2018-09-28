@@ -1,0 +1,22 @@
+# package directories
+node_modules
+
+# Directories
+.serverless
+.webpack
+/ coverage
+/ dist
+/ build
+/ typings
+/.awcache
+/.ssh
+
+# Files
+.DS_STORE
+npm - debug.log *
+yarn - error.log *
+.env
+serverless.env.yml
+.nyc_output
+coverage.lcov
+engine.json
